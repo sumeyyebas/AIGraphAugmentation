@@ -1,0 +1,5 @@
+--creator Model
+--training exp_1
+--epoch 50
+--lr 0.3
+--batch_size 16
