@@ -54,7 +54,7 @@ Changed files are :
 
 ## Graph Classification
 
-Graph classification algorithms are implemented to evaluate the generated synthetic graphs. The `datasets` folder contains subfolders for different experiments. Currently, it includes experiments on the COLLAB dataset, with variations b (raw-data), c (w/ Real), exp_1 (w/ Gen.) and e (test data). 
+Graph classification algorithms are implemented to evaluate the generated synthetic graphs. The `datasets` folder contains subfolders for different experiments. Currently, it includes experiments on the COLLAB dataset, with variations b (raw-data), c (w/ Real), exp_1 (w/ Gen.) and e (test data). Graphs should be in files named "graphs.pt" in the corresponding directory.
 
 Experiments `exp1` and `exp2` include augmented data. You can modify the `config.txt` file to adjust hyperparameters and set up different experiments. Test data will always be the folder `e`.
 
